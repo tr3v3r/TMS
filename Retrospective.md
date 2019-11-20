@@ -9,7 +9,7 @@
   * Push changes to the repo
 * JS test (45 min)
 * Simple-counter
-  * Fork this repository
+  * Clone [this](https://github.com/tr3v3r/simple-counter) repository
   * Add counter functionality
   * Push changes
 
