@@ -5,7 +5,7 @@
 
 ## Hometask
 * Downdload [this](https://github.com/tr3v3r/destructuring/blob/master/README.md)
-* Clone your *TMS-your name* repository
+* Clone your **TMS-your-name** repository
 * Create and switch to branch with name **desctructuring**
 * Create folder with name **desctructuring**
 * Copy files from repository from *step 1* to **desctructuring** folder
