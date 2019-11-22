@@ -9,7 +9,8 @@
 * Add **tr3v3r** as collaborator
 * Clone repository
 * `npm install`
-* open **test** folder and fix all tests
+* Open **test** folder and fix all tests
+* Run `npm run test ./test/file name.js` to check. ( i.e. for **string.js** `npm run test ./test/string.js` )
 
 ### Example
 * Open file **test/array.js**
