@@ -14,7 +14,7 @@
 * Open **es6-features-practise** folder in your VSCode / WebStorm
 * `npm install`
 * Open **test** folder and fix all tests
-* Run `npm run test ./test/file name.js` to check. ( i.e. for **string.js** `npm run test ./test/string.js` )
+* Run `npm run test ./test/file name.js` to check. ( i.e. for **symbol.js** `npm run test ./test/symbol.js` )
 * Push branch and open Pull Request
 
 ### Example
