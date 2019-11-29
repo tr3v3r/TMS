@@ -3,7 +3,6 @@
 * [Presentation](https://slides.com/danielsuleiman/es6#/3)
 
 
-
 ## Hometask
 * Downdload [this](https://github.com/tr3v3r/es6-features-practise)
 * Clone your **TMS-your-name** repository
