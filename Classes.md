@@ -2,6 +2,26 @@
 ## Classes. Prototypes
 
 * [Presentation](https://sulemanof.github.io/js-lectures/js-classes/presentation/#/)
+* Practise
+
+**Write full inheritance for BMW**
+```
+function Car(color, price) {
+  this.color = color
+  this.price = price
+}
+
+Car.prototype.getInfo = function() {
+  return `${this.color} ${this.price}`
+}
+
+function BMW() {}
+
+const myBmw = new BMW('bmw', 'black', 1000)
+
+myBmw.getInfo() // bmw: black 1000
+
+```
 
 ## Hometask
 * Clone your **TMS-your-name** repository
