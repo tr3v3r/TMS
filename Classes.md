@@ -45,6 +45,15 @@ bob instanceof Human // true
 jack instanceof Human // true
 ```
 
+**Write reduce method**
+
+```
+[1,2,3,4,5].reduce(function(acc, next) {
+  return acc + next
+}, 0) // 1 + 2 + 3 + 4 + 5 = 15
+```
+
+
 ## Hometask
 * Clone your **TMS-your-name** repository
 * create a branch **js-classes** in your project and checkout it
