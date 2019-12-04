@@ -86,7 +86,7 @@ const obj2 = ?
 }, 0) // 1 + 2 + 3 + 4 + 5 = 15
 ```
 
-**When we feed one hamster, the other one is also full. Why? How can we fix it?
+**When we feed one hamster, the other one is also full. Why? How can we fix it?**
 ```
 let hamster = {
   stomach: [],
