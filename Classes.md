@@ -112,6 +112,31 @@ console.log( speedy.stomach ); // apple
 console.log( lazy.stomach ); // apple
 ```
 
+**Borrow method**
+```
+let obj = {
+  0: "Hello",
+  1: "world!",
+  length: 2,
+};
+
+console.og( obj.join(',') ); // Hello,world!
+```
+
+**Bind polyfill**
+```
+const obj = { name: 'alex' }
+
+function getName(surname) {
+  console.log(this.name + ' ' + surname)
+}
+
+const getFullName = getName.bind(obj) 
+
+getFullName('astafyeu') // alex astafyeu
+
+```
+
 
 ## Hometask
 * Clone your **TMS-your-name** repository
