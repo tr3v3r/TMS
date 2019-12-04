@@ -23,6 +23,28 @@ myBmw.getInfo() // bmw: black 1000
 
 ```
 
+**Write following function**
+```
+function Human(name) {
+  this.name = name
+
+  // your code here
+}
+
+Human.prototype.getName = function() {
+  console.log(this.name)
+}
+
+const bob = Human('bob')
+const jack = new Human('jack')
+
+bob.getName() // 'bob'
+jack.getName() // 'jack'
+
+bob instanceof Human // true
+jack instanceof Human // true
+```
+
 ## Hometask
 * Clone your **TMS-your-name** repository
 * create a branch **js-classes** in your project and checkout it
