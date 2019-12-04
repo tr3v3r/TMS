@@ -4,6 +4,31 @@
 * [Presentation](https://sulemanof.github.io/js-lectures/js-classes/presentation/#/)
 * Practise
 
+**Provide proto chaning**
+```
+let head = {
+  glasses: 1
+};
+
+let table = {
+  pen: 3
+};
+
+let bed = {
+  sheet: 1,
+  pillow: 2
+};
+
+let pockets = {
+  money: 2000
+};
+
+pockets → bed → table → head
+console.log( pockets.pen ); // 3
+console.log( bed.glasses ); // 1
+console.log( table.money ); // undefined
+```
+
 **Write full inheritance for BMW**
 ```
 function Car(color, price) {
