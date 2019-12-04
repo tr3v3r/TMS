@@ -4,6 +4,7 @@
 * [Presentation](https://sulemanof.github.io/js-lectures/js-classes/presentation/#/)
 * Practise
 
+
 **Provide proto chaning**
 ```
 let head = {
@@ -69,6 +70,13 @@ jack.getName() // 'jack'
 bob instanceof Human // true
 jack instanceof Human // true
 ```
+
+**Create object based on existing object**
+```
+console.log(obj) // { }
+const obj2 = ?
+```
+
 
 **Write reduce method**
 
