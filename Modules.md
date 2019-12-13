@@ -20,6 +20,17 @@
 * Re export this modules to make possible use them like `import { Counter, createElement } from './modules'`
 * Create **index.js** near **modules** folder and using *Counter* and *createElement* create 3 buttons and counter element
 * Everything should work without any html tags inside.
-
+<img src="./assets/counter.png" width="400">
 
   
+## Hometaks
+Rewrite your **weather-app** using modules.
+
+Your app should consist of at least several modules. i.e.
+* Module for fetching data
+* Module for rendering and manging map
+* Module for rendering and mangin table
+* Module for handling localstorage
+* Module createElement 
+
+
