@@ -1,6 +1,8 @@
 ## Webpack
 
 * [Presentation](https://slides.com/danielsuleiman/webpack/#/)
+* clone [this](https://github.com/tr3v3r/webpack-search)
+* **npm init**
 * **npm i --save-dev webpack**
 * **npm i --save-dev webpack-cli**
 * **npm i --save-dev style-loader**
@@ -11,16 +13,4 @@
   * Try to split your logic into modules ( i.e. Form, Box, Store ) 
 
 <img src="./assets/search.gif" width="600">
-
-  
-## Hometaks
-Rewrite your **weather-app** using modules.
-
-Your app should consist of at least several modules. i.e.
-* Module for fetching data
-* Module for rendering and manging map
-* Module for rendering and mangin table
-* Module for handling localstorage
-* Module createElement 
-
 
