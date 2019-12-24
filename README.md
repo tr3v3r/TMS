@@ -8,4 +8,5 @@
 [Lesson 5. Async development](./Async.md)  
 [Lesson 6. DOM. BOM](./DOM.BOM.md)  
 [Lesson 7. Npm. Modules](./Modules.md)    
-[Lesson 8. Webpack](./Webpack.md) 
+[Lesson 8. Webpack](./Webpack.md)    
+[Lesson 9. Webpack. Part 2](./Webpack2.md)
