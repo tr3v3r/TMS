@@ -1,6 +1,6 @@
 ## NPM. Modules
 
-* [Presentation](https://slides.com/danielsuleiman/npm#/)	* [Presentation](https://slides.com/danielsuleiman/webpack/#/)
+* [Presentation](https://slides.com/danielsuleiman/npm#/)	
 * Install [browserify](http://browserify.org/)	* **npm i --save-dev webpack**
 * Install [babelify](https://github.com/babel/babelify)	* **npm i --save-dev webpack-cli**
 * Implement Counter based on modules	* **npm i --save-dev style-loader**
