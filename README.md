@@ -10,4 +10,4 @@
 [Lesson 7. Npm. Modules](./Modules.md)    
 [Lesson 8. Webpack](./Webpack.md)    
 [Lesson 9. Webpack. Part 2](./Webpack2.md)    
-[Lesson 10. React. Intro]('./React.md)
+[Lesson 10. React. Intro](./React.md)
