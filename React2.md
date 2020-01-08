@@ -1,5 +1,12 @@
 ## React. Lifecycle methods.
 
+* Impementing **Weather-App** with react
+* App must consist of all main functionality
+  * Get data from server
+  * Save data into the table
+  * Get your location and the get data ftom the server
+  * Save data into async storage
+  * Load data on app launch accordin to async storage data
 
 
 ### Hometask
