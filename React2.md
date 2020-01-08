@@ -9,5 +9,6 @@
 * Run **npx create-react-app react-app**
 * Create **Box**, **BoxContainer**, **Form** components ( you can get styles from [this repo](https://github.com/tr3v3r/webpack-search/tree/master/src) )
 * Implement Search/Add using react. 
+* Commit your changes, push branch an open pull request
 
 <img src="./assets/search.gif" width="600">
