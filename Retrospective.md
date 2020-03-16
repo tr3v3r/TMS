@@ -15,18 +15,23 @@
   * Push changes
 
 ## Hometask
-### Create new repo
 * Create repository *TMS-your name* (example: TMS-Aliaksei-Astafyeu)
 * Add **tr3v3r** as collaborator
-* Add **README.md** file and put link to your **js-assignments** repository
+* Add **README.md** file and put your full name there
 
-### Go to js-assignments repo
-* Clone **js-assignments** repository
-* Create branch with name *Hometask-1*
+* **Downdload** (NOT CLONE) [this](https://github.com/tr3v3r/js-assignments)
+* **Clone** (NOT DOWNLOAD) your **TMS-your-name** repository to your home PC
+* Copy **js-assignments** folder into you project
+* Commit changes and push into master of your *TMS-your name* repository
+
+* Create and switch to branch with name **js-assignments**
+* `npm install`
 * Solve:
   * **first 4** task **from 01-strings-tasks.js** 
   * **first 4** task **from 01-numbers-tasks.js**
   * **first 4** task **from 01-arrays-tasks.js**
+* To check if task solved run `npm run test`
 * Make commit after **every** solved task!
 * Push branch to github
 * Create *pull request* and add **tr3v3r** as reviewer
+
