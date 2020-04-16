@@ -53,7 +53,7 @@ const counter = new Counter()
 
 counter.onChange(currentValue => {
  counterBlock.update([currentValue])
-```	
+
 
 
 document.body.append(
@@ -67,7 +67,7 @@ document.body.append(
     ])
  )
 })
-
+```	
 * Re export this modules to make possible use them like `import { Counter, createElement } from './modules'`	
 * Create **index.js** near **modules** folder and using *Counter* and *createElement* create 3 buttons and counter element	
 * Everything should work without any html tags inside.	
