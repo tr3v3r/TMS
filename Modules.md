@@ -24,6 +24,7 @@
 * Everything should work without any html tags inside.	
 <img src="./assets/counter.png" width="400">
 
+* styles you can find [here](https://github.com/tr3v3r/simple-counter/blob/master/styles.css) 
   
 ## Hometaks
 Rewrite your **weather-app** using modules.
