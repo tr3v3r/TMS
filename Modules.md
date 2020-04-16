@@ -6,17 +6,62 @@
 * Implement Counter based on modules	
   * Create folder **modules** and **idnex.js** inside	
   * Create module **Counter.js** (class with state, and methods for increment / decrement)
-  * Create module **createElement.js**. Function wich should work like:
+  * Create module **Element.js**. Class wich should work like:
 ```	  * Create **src** folder
- const decrementButton = createElement(	 
-   'div',	
-   { style: "button center decrement", onClick: () => { // your code on click } },	
-   [	
-     "-"	
-   ]	
+
+// Element.js
+
+class Element {
+    constructor(elem) {
+       
+    }
+
+    addClassName(className) {
+     
+    }
+
+    onClick(callback) {
+       
+    }
+
+    render(children = []) {
+       
+    }    
+}
 
 
- <div style="button center decrement">"-"</div>	<img src="./assets/search.png" width="600">
+// decrementButton.js
+
+import { Element } from './Element'
+
+ export const decrementButton = new Element('div')
+.addClassName('button')
+.addClassName('center')
+.addClassName('decrement')
+
+
+// index.js
+
+import { decrementButton, incrementButton, counterBlock, wrapper, container, Counter }  from './modules'
+
+
+const counter = new Counter()
+
+counter.onChange(currentValue => {
+document.body.innerHTML = '';
+
+document.body.append(
+     wrapper.render([
+        counterBlock.render(currentValue),
+        container.render([
+            leftButton.onClick(counter.dicrement).render('-'),
+            resetButton.onClick(counter.reset).render('#'),
+            rightButton.onClick(counter.increment).render('+')
+        ])
+    ])
+ )
+})
+
 ```	
 
 * Re export this modules to make possible use them like `import { Counter, createElement } from './modules'`	
