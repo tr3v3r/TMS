@@ -6,9 +6,9 @@
 * Implement Counter based on modules	
   * Create folder **modules** and **idnex.js** inside	
   * Create module **Counter.js** (class with state, and methods for increment / decrement)
-  * Create module **createElement.js**. Function wich should work like:	* Implement Search/Add. 
+  * Create module **createElement.js**. Function wich should work like:
 ```	  * Create **src** folder
- const decrementButton = createElement(	  * Try to split your logic into modules ( i.e. Form, Box, Store ) 
+ const decrementButton = createElement(	 
    'div',	
    { style: "button center decrement", onClick: () => { // your code on click } },	
    [	
