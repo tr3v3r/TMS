@@ -1,11 +1,11 @@
 ## NPM. Modules
 
 * [Presentation](https://slides.com/danielsuleiman/npm#/)	
-* Install [browserify](http://browserify.org/)	* **npm i --save-dev webpack**
-* Install [babelify](https://github.com/babel/babelify)	* **npm i --save-dev webpack-cli**
-* Implement Counter based on modules	* **npm i --save-dev style-loader**
-  * Create folder **modules** and **idnex.js** inside	* **npm i --save-dev css-loader**
-  * Create module **Counter.js** (class with state, and methods for increment / decrement)	* create **webpack.config.js** and set up config (*style-loader*, *css-loader* with modules support, *html-webpack-plugin*)
+* Install [browserify](http://browserify.org/)	
+* Install [babelify](https://github.com/babel/babelify)
+* Implement Counter based on modules	
+  * Create folder **modules** and **idnex.js** inside	
+  * Create module **Counter.js** (class with state, and methods for increment / decrement)
   * Create module **createElement.js**. Function wich should work like:	* Implement Search/Add. 
 ```	  * Create **src** folder
  const decrementButton = createElement(	  * Try to split your logic into modules ( i.e. Form, Box, Store ) 
