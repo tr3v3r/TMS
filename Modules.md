@@ -24,6 +24,10 @@ class Element {
        
     }
 
+    update(children = []) {
+
+    }
+
     render(children = []) {
        
     }    
@@ -48,21 +52,21 @@ import { decrementButton, incrementButton, counterBlock, wrapper, container, Cou
 const counter = new Counter()
 
 counter.onChange(currentValue => {
-document.body.innerHTML = '';
+ counterBlock.update([currentValue])
+```	
+
 
 document.body.append(
      wrapper.render([
-        counterBlock.render(currentValue),
+        counterBlock.render([counter.currentValue]),
         container.render([
-            leftButton.onClick(counter.dicrement).render('-'),
-            resetButton.onClick(counter.reset).render('#'),
-            rightButton.onClick(counter.increment).render('+')
+            leftButton.onClick(counter.dicrement).render(['-']),
+            resetButton.onClick(counter.reset).render(['#']),
+            rightButton.onClick(counter.increment).render(['+'])
         ])
     ])
  )
 })
-
-```	
 
 * Re export this modules to make possible use them like `import { Counter, createElement } from './modules'`	
 * Create **index.js** near **modules** folder and using *Counter* and *createElement* create 3 buttons and counter element	
