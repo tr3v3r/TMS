@@ -5,6 +5,7 @@
   * Fork [this](https://github.com/tr3v3r/js-assignments) repository
   * Add **tr3v3r** as collaborator
   * Clone repository
+  * install node js
   * `npm install`
   * Solve first task from **task/01-strings-tasks.js**
   * Push changes to the repo
