@@ -6,9 +6,11 @@
 ## Hometask
 * Downdload [this](https://github.com/tr3v3r/destructuring)
 * Clone your **TMS-your-name** repository
+* Copy downloaded folder into you project
+* Commit changes and push into master of your TMS-your name repository
+
 * Create and switch to branch with name **desctructuring**
 * Create folder with name **desctructuring**
-* Copy files from repository from *step 1* to **desctructuring** folder
 * Open **desctructuring** folder in your VSCode / WebStorm
 * `npm install`
 * Open **test** folder and fix all tests
