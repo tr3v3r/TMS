@@ -11,4 +11,5 @@
 [Lesson 8. Webpack](./Webpack.md)    
 [Lesson 9. Webpack. Part 2](./Webpack2.md)    
 [Lesson 10. React. Intro](./React.md)   
-[Lesson 11. React. Lifecycle methods](./React2.md)
+[Lesson 11. React. Lifecycle methods](./React2.md)   
+[Lesson 12. React. Redux. Practice](./react-redux.md)
